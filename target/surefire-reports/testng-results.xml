@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTest" duration-ms="32825" started-at="2017-10-25T23:03:19Z" finished-at="2017-10-25T23:03:52Z">
+    <groups>
+    </groups>
+    <test name="Portalvalidation" duration-ms="32825" started-at="2017-10-25T23:03:19Z" finished-at="2017-10-25T23:03:52Z">
+      <class name="testcases.VerifyHomePage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyHomePage@3cb5cdba]" name="setup" is-config="true" duration-ms="8437" started-at="2017-10-26T04:33:38Z" finished-at="2017-10-26T04:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.VerifyHomePage@3cb5cdba]" name="testHomePage" duration-ms="5209" started-at="2017-10-26T04:33:46Z" finished-at="2017-10-26T04:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.VerifyHomePage@3cb5cdba]" name="teardown" is-config="true" duration-ms="775" started-at="2017-10-26T04:33:51Z" finished-at="2017-10-26T04:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.VerifyHomePage -->
+      <class name="testcases.VerifyLoginPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyLoginPage@5a39699c]" name="setup" is-config="true" duration-ms="11907" started-at="2017-10-26T04:33:19Z" finished-at="2017-10-26T04:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.VerifyLoginPage@5a39699c]" name="testHomePage" duration-ms="5630" started-at="2017-10-26T04:33:31Z" finished-at="2017-10-26T04:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.VerifyLoginPage@5a39699c]" name="teardown" is-config="true" duration-ms="831" started-at="2017-10-26T04:33:37Z" finished-at="2017-10-26T04:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.VerifyLoginPage -->
+    </test> <!-- Portalvalidation -->
+  </suite> <!-- SmokeTest -->
+</testng-results>
